@@ -23,7 +23,7 @@ To run the Bot open separate window in your terminal and paste next command: `py
 
 This command automatically invoke creating user, creating user's posts, post's likes and post's dislikes.
 
-## User API
+## API endpoints:
 ### PUT /api/user/signup
 This endpoint is to create a user.
 Should be passed `email` and `password` parameters. After successful sign up JWT token will be return.
