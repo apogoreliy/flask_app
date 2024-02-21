@@ -18,7 +18,7 @@ class JWTHelper:
                 "ACCESS_TOKEN": "7200",
                 "REFRESH_TOKEN": "604800"
             },
-            "ISSUER": "starnavi"
+            "ISSUER": "flask_app"
         }
         tokens = jwt_info["SECRET"]
         lifetimes = jwt_info["LIFETIME"]
